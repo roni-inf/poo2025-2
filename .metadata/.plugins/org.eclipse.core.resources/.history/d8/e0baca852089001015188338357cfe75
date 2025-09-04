@@ -1,0 +1,10 @@
+package exemplos;
+
+public class Pessoa {
+	String nome;
+	double peso, altura;
+
+	public double calcularIMC() {
+		return peso / altura * altura;
+	}
+}
